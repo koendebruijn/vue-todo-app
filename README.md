@@ -1,6 +1,6 @@
 # vue-todo-app
 
-A Todo application created using Vue 3 Composition-API and Typescript
+A Todo application created using Vue.js 3 Composition-API and Typescript
 
 ## Table of content
 
