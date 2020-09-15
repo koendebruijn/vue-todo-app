@@ -1,20 +1,20 @@
 <template>
   <div class="wrapper">
     <Header />
-    <Todo />
+    <TodoList />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 import Header from '@/components/Header.vue';
-import Todo from '@/components/Todo.vue';
+import TodoList from '@/components/TodoList.vue';
 
 export default defineComponent({
   name: 'App',
   components: {
     Header,
-    Todo,
+    TodoList,
   },
 });
 </script>

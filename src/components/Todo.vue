@@ -7,10 +7,10 @@
 <script lang="ts">
 import { defineComponent, PropType } from 'vue';
 import Todo from '@/@types/Todo';
-import { todoStore } from '@/providers/todoStore';
 
 export default defineComponent({
   name: 'todo',
+
   props: {
     todo: {
       required: true,
