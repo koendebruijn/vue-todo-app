@@ -52,6 +52,7 @@ export default defineComponent({
 
   &__content {
     padding: 1em 0 1em 1em;
+    height: 50px;
   }
 
   &__icon-container {

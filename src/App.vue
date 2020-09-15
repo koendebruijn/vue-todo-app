@@ -1,6 +1,7 @@
 <template>
   <div class="wrapper">
     <Header />
+    <Input />
     <TodoList />
   </div>
 </template>
@@ -9,12 +10,14 @@
 import { defineComponent } from 'vue';
 import Header from '@/components/Header.vue';
 import TodoList from '@/components/TodoList.vue';
+import Input from '@/components/Input.vue';
 
 export default defineComponent({
   name: 'App',
   components: {
     Header,
     TodoList,
+    Input,
   },
 });
 </script>
@@ -28,8 +31,11 @@ export default defineComponent({
   box-sizing: border-box;
 }
 
-p {
+p,
+input::placeholder,
+input {
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 
 h1,
