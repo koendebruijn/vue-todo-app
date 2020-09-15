@@ -1,24 +1,26 @@
 # vue-todo-app
 
-## Project setup
-```
-yarn install
-```
+A Todo application created using Vue 3 Composition-API and Typescript
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Table of content
 
-### Compiles and minifies for production
-```
-yarn build
-```
+- [Demo](#demo)
+- [Roadmap](#roadmap)
+- [Authors](#authors)
+- [License](#license)
 
-### Lints and fixes files
-```
-yarn lint
-```
+## Demo
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[Click here to see the live demo](https://koendebruijn.github.io/vue-todo-app/)
+
+## Roadmap
+
+Here I will be adding things I want to add to this website
+
+## Authors
+
+[@koendebruijn](https://github.com/koendebruijn)
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
