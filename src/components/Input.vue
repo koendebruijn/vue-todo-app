@@ -7,7 +7,7 @@
       placeholder="Type here to add a todo"
       v-model="content"
     />
-    <button class="form__button" type="submit">
+    <button class="form__button" type="submit" :disabled="!content.length">
       <icon class="form__button-icon" icon="plus-circle" />
     </button>
   </form>
@@ -48,6 +48,10 @@ export default defineComponent({
     border: none;
     padding: 1em 0 1em 1em;
     height: 50px;
+
+    &:focus {
+      outline: none;
+    }
   }
 
   &__button {
@@ -56,6 +60,13 @@ export default defineComponent({
     border-radius: none;
     color: white;
     background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    transition: 0.2s all ease-in-out;
+
+    &:disabled {
+      cursor: not-allowed;
+      filter: grayscale(100%);
+      transition: 0.2s all ease-in-out;
+    }
   }
 
   &__button-icon {
